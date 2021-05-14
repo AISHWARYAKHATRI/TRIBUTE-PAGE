@@ -1,0 +1,53 @@
+body{
+    background:rgb(0,0,0);
+}
+
+h1{
+    text-align:center;
+}
+
+#main{
+    background:black;
+}
+
+#title{
+   color: green;
+   font-family:monospace;
+   font-size:80px;
+}
+#img-div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+#image{
+     border-radius:500px;
+     max-width:300px;
+}
+
+#img-caption{
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-family:'Inconsolata',monospace;
+    font-weight:400;
+}
+
+#tribute-info{
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-family:'Inconsolata',monospace;
+    font-weight:400;
+}
+
+#tribute-link{
+    color:green;
+    text-align:center;
+    font-size:25px;
+    font-family:'Inconsolata',monospace;
+    font-weight:400;
+}
